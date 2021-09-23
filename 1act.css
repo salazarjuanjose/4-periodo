@@ -1,0 +1,52 @@
+.cuadro1
+{
+	position:absolute;
+	left: 25%;
+	top: 2%;
+	height: 15%;
+	width: 50%;
+	background:#2B306D;
+}
+.titulo
+{
+	position: absolute;
+	left: 23%;
+	font-size: 350%;
+	top: 9%;
+}
+.escude
+{
+	position: absolute;
+	left: 39%;
+	top: 20%;
+	height: 60%;
+	width: 40%;
+	background:url(neosis.png);
+	background-repeat: no-repeat;
+
+	
+}
+.ej1
+{
+	position: absolute;
+	height: 15%;
+	width: 10%;
+	left: 7%;
+	top: 2%;
+	background:#2B306D;
+
+}
+.ej2
+{
+	position: absolute;
+	height: 15%;
+	width: 10%;
+	left: 83%;
+	top: 2%;
+	background:#2B306D;
+
+
+}
+
+#es{display: none;}
+body{width:99%;height:98%;position: absolute;background-color: #074703;}
