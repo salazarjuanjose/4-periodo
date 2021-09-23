@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="1act.css">
+</head>
+<body onmousemove="boc()" class="fondo">
+ 
+    <div class="cuadro1" onclick="tit()">
+    	<label class="titulo">C.E.Neosistemas</label>
+    </div>
+    <div class="escude" id="es"></div>
+    <div class="ej2"></div>
+    <center><div class="ej1" id="g"></div></center>
+	<script>
+		function tit()
+		{
+			setTimeout(sal,0);
+		}
+		function sal()
+		{
+			es.style.display="block";
+			setTimeout(dede,800);
+
+		}
+		function dede()
+		{
+			es.style.display="none";
+		}
+		function boc()
+        {
+            x1=event.clientX;
+            y=event.clientY;
+            g.innerHTML=x1+"  "+y;
+
+        }
+	</script>
+	
+
+</body>
+</html>
